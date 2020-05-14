@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React from "react";
 
 import UsersList from "../components/UsersList";
 
@@ -12,7 +12,8 @@ const Users = () => {
     },
   ];
 
-  return <useReducer items={USERS} />;
+  return <UsersList items={USERS} />;
 };
 
 export default Users;
+ 
